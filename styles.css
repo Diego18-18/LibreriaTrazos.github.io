@@ -80,13 +80,14 @@ hr {
 .bienvenida {
     width: 100%;
     height: 550px;
-    background: url('./Imagenes/Mar-de-Plata.jpg') no-repeat center center/cover;
+    background: url('./Imagenes/FotoBienvenida.jpg') no-repeat center center/cover;
     padding: 50px;
     margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
+    color: black;
 }
 
 .btn {
@@ -262,6 +263,10 @@ hr {
         margin-right: 40px;
     }
 
+    .bienvenida {
+        text-align: center;
+    }
+
     .nuevas-noticias {
         grid-template-columns: repeat(2, 1fr);
     }
@@ -284,6 +289,10 @@ hr {
 
     .nuevas-noticias img {
         height: 270px;
+    }
+
+    .bienvenida {
+        text-align: center;
     }
 
     .cards-banner-one .contenido,
