@@ -37,7 +37,7 @@ ul {
     padding: 20px 0;
 }
 
-.nav-brand {
+.nav-logo {
     width: 50px;
 }
 
@@ -72,12 +72,12 @@ ul {
     display: none;
 }
 
-/* SHOWCASE */
+/* BIENVENIDA */
 hr {
     margin: 10px 0;
 }
 
-.showcase {
+.bienvenida {
     width: 100%;
     height: 550px;
     background: url('./Imagenes/showcase2.jpg') no-repeat center center/cover;
@@ -106,30 +106,30 @@ hr {
     opacity: .7;
 }
 
-.showcase h2,
-.showcase p {
+.bienvenida h2,
+.bienvenida p {
     margin-bottom: 10px;
 }
 
-/* NEWS CARDS */
-.news-cards {
+/* NUEVAS NOTICIAS */
+.nuevas-noticias {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 25px;
     margin: 10px 0;
 }
 
-.news-cards img {
+.nuevas-noticias img {
     width: 100%;
     height: 180px;
 }
 
-.news-cards h3 {
+.nuevas-noticias h3 {
     font-size: 20px;
     margin: 10px 0;
 }
 
-.news-cards a {
+.nuevas-noticias a {
     padding: 10px 0;
     color: #f2f2f2;
     text-transform: uppercase;
@@ -137,7 +137,7 @@ hr {
     font-weight: bold;
 }
 
-.news-cards a:hover {
+.nuevas-noticias a:hover {
     text-decoration: underline;
 }
 
@@ -149,7 +149,7 @@ hr {
     margin-bottom: 40px;
 }
 
-.cards-banner-one .content {
+.cards-banner-one .contenido {
     width: 40%;
     padding: 90px 0 0 30px;
     color: #ffffff;
@@ -167,7 +167,7 @@ hr {
     background: url('./Imagenes/image-five.jpg') no-repeat center center/cover;
 }
 
-.cards-banner-two .content {
+.cards-banner-two .contenido {
     width: 50%;
     padding: 100px 0 0 30px;
 }
@@ -249,7 +249,7 @@ hr {
         transition: transform .5s ease-in-out;
     }
 
-    .nav-main ul.nav-menu.show {
+    .nav-main ul.nav-menu.categorías {
         transform: translateX(-20px);
     }
 
@@ -258,16 +258,16 @@ hr {
         font-size: 14px;
     }
 
-    .nav-main ul.nav-menu-right {
+    .nav-main ul.nav-menu-lupa {
         margin-right: 40px;
     }
 
-    .news-cards {
+    .nuevas-noticias {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .cards-banner-one .content,
-    .cards-banner-two .content
+    .cards-banner-one .contenido,
+    .cards-banner-two .contenido
     {
         width: 80%;
     }
@@ -278,16 +278,16 @@ hr {
 }
 
 @media (max-width: 500px) {
-    .news-cards {
+    .nuevas-noticias {
         grid-template-columns: 1fr;
     }
 
-    .news-cards img {
+    .nuevas-noticias img {
         height: 270px;
     }
 
-    .cards-banner-one .content,
-    .cards-banner-two .content {
+    .cards-banner-one .contenido,
+    .cards-banner-two .contenido {
         width: 100%;
         padding: 60px 20px;
     }
