@@ -68,6 +68,14 @@ ul {
     cursor: pointer;
     top: 15px;
     right: 30px;
+    display: none;
+}
+
+.menu-btn-b {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    right: 95%;
     z-index: 2;
     display: none;
 }
@@ -241,23 +249,32 @@ hr {
         display: block;
         position: absolute;
         top: 0;
-        left: 0;
+        right: 0;
         background: #2f3640;
         height: 100%;
         padding: 30px;
-        opacity: .9;
-        transform: translateX(-400px);
+        transform: translateX(450px);
         transition: transform .5s ease-in-out;
     }
 
     .nav-main ul.nav-menu.categorías {
-        transform: translateX(-20px);
+        transform: translateX(20px);
     }
 
     .nav-main ul.nav-menu li {
         padding: 20px;
         font-size: 14px;
     }
+
+    /* SEGUNDO BOTOM */
+
+    .menu-btn-b {
+        display: block;
+        position: absolute;
+        background: #2f3640;
+    }
+
+    /* LUPA */
 
     .nav-main ul.nav-menu-lupa {
         margin-right: 40px;
