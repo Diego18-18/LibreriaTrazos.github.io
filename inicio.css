@@ -1,0 +1,432 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: #2d5968;
+    color: #ffffff;
+    background-color: #f3ff2e;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='88' viewBox='0 0 80 88' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M22 21.91V26h-2c-9.94 0-18 8.06-18 18 0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73 3.212-6.99 9.983-12.008 18-12.73V62h2c9.94 0 18-8.06 18-18 0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73-3.212 6.99-9.983 12.008-18 12.73zM54 58v4.696c-5.574 1.316-10.455 4.428-14 8.69-3.545-4.262-8.426-7.374-14-8.69V58h-5.993C12.27 58 6 51.734 6 44c0-7.732 6.275-14 14.007-14H26v-4.696c5.574-1.316 10.455-4.428 14-8.69 3.545 4.262 8.426 7.374 14 8.69V30h5.993C67.73 30 74 36.266 74 44c0 7.732-6.275 14-14.007 14H54zM42 88c0-9.94 8.06-18 18-18h2v-4.09c8.016-.722 14.787-5.738 18-12.73v7.434c-3.545 4.262-8.426 7.374-14 8.69V74h-5.993C52.275 74 46 80.268 46 88h-4zm-4 0c0-9.943-8.058-18-18-18h-2v-4.09c-8.012-.722-14.785-5.738-18-12.73v7.434c3.545 4.262 8.426 7.374 14 8.69V74h5.993C27.73 74 34 80.266 34 88h4zm4-88c0 9.943 8.058 18 18 18h2v4.09c8.012.722 14.785 5.738 18 12.73v-7.434c-3.545-4.262-8.426-7.374-14-8.69V14h-5.993C52.27 14 46 7.734 46 0h-4zM0 34.82c3.213-6.992 9.984-12.008 18-12.73V18h2c9.94 0 18-8.06 18-18h-4c0 7.732-6.275 14-14.007 14H14v4.696c-5.574 1.316-10.455 4.428-14 8.69v7.433z' fill='%23f91701' fill-opacity='0.3' fill-rule='evenodd'/%3E%3C/svg%3E");
+    font-size: 16px;
+    font-family: 'Oswald', sans-serif;
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.cabecera {
+    width: 90%;
+    margin: auto;
+}
+
+/* NAVEGACION */
+.navegación {
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 40px;
+    padding: 10px 0;
+}
+
+.logo-navegación {
+    width: 20%;
+}
+
+.navegación ul {
+    display: flex;
+}
+
+.navegación ul li {
+    padding: 10px;
+}
+
+.navegación ul li a {
+    padding: 6px;
+    color: black;
+}
+
+.navegación ul li a:hover {
+    border-bottom: 2px solid black;
+}
+
+.navegación ul.categorías {
+    flex: 1;
+    margin-left: 0%;
+}
+
+.menu-btn {
+    position: absolute;
+    cursor: pointer;
+    top: 15px;
+    right: 30px;
+    display: none;
+}
+
+.menu-btn-b {
+    position: absolute;
+    cursor: pointer;
+    top: 0px;
+    right: 95%;
+    z-index: 2;
+    display: none;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+/* BIENVENIDA */
+.bienvenida {
+    width: center;
+    height: 300px;
+    background: url('./Imagenes/LogoTrazos2.png') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    text-align: center;
+}
+
+.bienvenidatxt {
+    width: center;
+    margin-top: 0px;
+    margin-bottom: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color: black;
+}
+
+/* GRUPOS */
+
+/* GRUPO1 */
+.grupo1 {
+    width: 450px;
+    height: 400px;
+    background: url('./Imagenes/Foto1.jpg') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: left;
+    color: white;
+}
+
+/* GRUPO2 */
+.grupo2 {
+    width: 450px;
+    height: 400px;
+    background: url('./Imagenes/Foto2.jpg') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: right;
+    color: white;
+}
+
+/* GRUPO3 */
+.grupo3 {
+    width: 450px;
+    height: 400px;
+    background: url('./Imagenes/Foto3.jpg') no-repeat center center/cover;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: left;
+    color: white;
+}
+
+/* GRUPO4 */
+.grupo4 {
+    width: 450px;
+    height: 400px;
+    padding: 50px;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    float: right;
+    color: black;
+}
+
+.UBCC {
+    background: #a1a1a1;
+}
+
+/* SOCIAL */
+.social {
+    margin: 50px;
+}
+
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.links {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.links a {
+    margin: 0 30px;
+    color: black;
+}
+
+.links a i {
+    font-size: 3rem;
+}
+
+/* FOOTER LINKS */
+.footer-links {
+    background: #2f3640;
+    color: #616161;
+    font-size: 15px;
+    padding: 25px 0;
+}
+
+.footer-almacen {
+    display: grid;
+    grid-template-columns: repeat(1 fr);
+    gap: 10px;
+    align-items: flex-start;
+    justify-content: center;
+    text-align: center;
+}
+
+.footer-almacen ul {
+    margin: 0 auto;
+}
+
+.footer-almacen ul li {
+    line-height: 2.8;
+}
+
+.footer {
+    background: #2f3640;
+    color: #616161;
+    font-size: 15px;
+    padding: 20px 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 700px) {
+    .menu-btn {
+        display: block;
+    }
+
+    .navegación ul li a {
+        padding: 6px;
+        color: white;
+    }
+    
+    .navegación ul li a:hover {
+        border-bottom: 2px solid white;
+    }
+
+    .logo-navegación {
+        width: 40%;
+        margin-top: 8px;
+    }
+
+    .navegación ul.categorías {
+        display: block;
+        position: fixed;
+        top: 0;
+        right: 0;
+        background: #2f3640;
+        height: 100%;
+        padding: 30px;
+        transform: translateX(450px);
+        transition: transform .5s ease-in-out;
+    }
+
+    .navegación ul.categorías.up {
+        transform: translateX(20px);
+    }
+
+    .navegación ul.categorías li {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    /* SEGUNDO BOTOM */
+
+    .menu-btn-b {
+        display: block;
+        position: absolute;
+        background: #2f3640;
+    }
+
+
+    /* GRUPOS */
+
+    /* GRUPO1 */
+    .grupo1 {
+        width: 450px;
+        height: 400px;
+        background: url('./Imagenes/Foto1.jpg') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: center;
+        color: black;
+    }
+
+    /* GRUPO2 */
+    .grupo2 {
+        width: 450px;
+        height: 400px;
+        background: url('./Imagenes/Foto2.jpg') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO3 */
+    .grupo3 {
+        width: 450px;
+        height: 400px;
+        background: url('./Imagenes/Foto3.jpg') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO4 */
+    .grupo4 {
+        width: 450px;
+        height: 400px;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 31px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    .UBCC {
+        background: #a1a1a1;
+        text-align: center;
+    }
+
+    .footer-links .footer-almacen {
+        grid-template-columns: 1fr;
+    }
+
+}
+
+@media (max-width: 500px) {
+    /* GRUPOS */
+
+    /* GRUPO1 */
+    .grupo1 {
+        width: 300px;
+        height: 300px;
+        background: url('./Imagenes/Foto1.jpg') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: center;
+        color: black;
+    }
+
+    /* GRUPO2 */
+    .grupo2 {
+        width: 300px;
+        height: 300px;
+        background: url('./Imagenes/Foto2.jpg') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO3 */
+    .grupo3 {
+        width: 300px;
+        height: 300px;
+        background: url('./Imagenes/Foto3.jpg') no-repeat center center/cover;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    /* GRUPO4 */
+    .grupo4 {
+        width: 300px;
+        height: 350px;
+        padding: 50px;
+        margin-bottom: 40px;
+        margin-left: 16.5px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        float: left;
+        color: black;
+    }
+
+    .UBCC {
+        background: #a1a1a1;
+        text-align: center;
+    }
+}
