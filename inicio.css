@@ -108,6 +108,22 @@ hr {
     color: black;
 }
 
+.btn {
+    cursor: pointer;
+    display: inline-block;
+    border: 0;
+    font-weight: bold;
+    padding: 10px 20px;
+    color: #ffffff;
+    font-size: 15px;
+    border: 1px solid #fff;
+    margin: 10px 0;
+}
+
+.btn:hover {
+    opacity: .7;
+}
+
 /* GRUPOS */
 
 /* GRUPO1 */
